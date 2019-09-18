@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Lab12:war" />
+      <artifact name="Lab12:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5aeb6b6-fb1b-4802-99ab-fb03c1d23598" name="Default Changelist" comment="" />
+    <list default="true" id="b5aeb6b6-fb1b-4802-99ab-fb03c1d23598" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs/cs472/GuessNumberServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs/cs472/GuessNumberServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs/cs472/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs/cs472/Quiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lab12/WEB-INF/classes/edu/mum/cs/cs472/GuessNumberServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Lab12/WEB-INF/classes/edu/mum/cs/cs472/GuessNumberServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Lab12/WEB-INF/classes/edu/mum/cs/cs472/Quiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Lab12/WEB-INF/classes/edu/mum/cs/cs472/Quiz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/mum/cs/cs472/GuessNumberServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/mum/cs/cs472/GuessNumberServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/mum/cs/cs472/Quiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/mum/cs/cs472/Quiz.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +29,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -36,8 +48,10 @@
     </option>
   </component>
   <component name="ProjectId" id="1QyrmCCB3qVxIn556pWhSSxkPO1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -74,12 +88,12 @@
       </method>
     </configuration>
     <configuration name="Lab12" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.19" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Lab12_war/" />
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
-        <artifact name="Lab12:war">
+        <artifact name="Lab12:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/Lab12_war" />
+            <option name="CONTEXT_PATH" value="/Lab12_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -142,13 +156,13 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Lab12:war" />
+          <artifact name="Lab12:war exploded" />
         </option>
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Lab12" />
       <item itemvalue="Application.Quiz" />
+      <item itemvalue="Tomcat Server.Lab12" />
     </list>
     <recent_temporary>
       <list>
@@ -166,12 +180,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568753833342</updated>
-      <workItem from="1568753834841" duration="13745000" />
+      <workItem from="1568753834841" duration="17122000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

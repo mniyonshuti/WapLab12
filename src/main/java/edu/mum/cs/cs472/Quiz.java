@@ -44,7 +44,7 @@ public class Quiz {
         return answerList.get(i);
     }
 
-    public boolean checkAnswer(int answer, int i){
+    public boolean isCorrect(int answer, int i){
         if(answer == getAnswer(i)) return true;
         return false;
     }
